@@ -1,0 +1,40 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+.colcon*/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Isaac / Omniverse caches
+.omniverse/
+*Cache*/
+*_Logs/
+
+# Big files – don't commit the vocabulary
+ORBvoc.txt
+*.bag
+# Build / ROS2
+build/
+install/
+log/
+.colcon*/
+
+# Isaac / datasets
+isaac_ros_ws/isaac_ros_assets/**/quickstart_bag/
+*.db3
+*.bag
+
+# Big vocab / media
+ORBvoc.txt
+*.mp4 *.mov *.zip *.tar.gz
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
